@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&family=Source+Code+Pro:wght@600&display=swap');
+
+
+.shape{
+  background-image: url(../../assets/back.jpg) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+
+}
+
+.shape .shape_info{
+  display: inline-block;
+
+}
+.shape .shape_info h1{
+  font-weight: bold;
+    color: yellowgreen;
+    text-shadow: 1px 2px 500px rgb(248 246 246 / 50%);
+    font-family: 'Source Code Pro', monospace;
+
+}
+.shape .shape_info p{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation:
+    typing 1s steps(20, end) forwards ,
+    blinking .8s infinite;}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blinking {
+  from { border-color: transparent }
+  to { border-color: orange; }
+}

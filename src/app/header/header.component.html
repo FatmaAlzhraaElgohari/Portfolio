@@ -1,0 +1,31 @@
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light" style="--bs-bg-opacity: .1;">
+    <div class="container">
+    <a class="navbar-brand me-auto" href="#"><img src="../../assets/portfolio.png" width="100px" height="50px"></a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item active">
+                <a class="nav-link"  [routerLink]="['/']" [routerLinkActive]="['is-active']"><fa-icon [icon]="faHouseChimney"></fa-icon> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/about']"><fa-icon [icon]="faBookOpen"></fa-icon> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/works']"><fa-icon [icon]="faCircleUser"></fa-icon> Works</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/contact']"><fa-icon [icon]=" faFileContract"></fa-icon> Contact</a>
+              </li>
+            </ul>
+
+
+
+          </div>
+
+        </div>
+        </nav>
+
+</header>
